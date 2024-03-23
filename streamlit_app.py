@@ -6,7 +6,7 @@ from scipy.signal import butter, filtfilt,spectrogram
 import pywt
 
 # 设置中文字体
-plt.rcParams['font.sans-serif'] = ['Heiti TC']  # 设置为SimSun字体
+plt.rcParams['font.sans-serif'] = ['SimSun']  # 设置为SimSun字体
 plt.rcParams['axes.unicode_minus'] = False  # 解决保存图像是负号'-'显示为方块的问题
 
 
